@@ -68,11 +68,9 @@ nav ul li{
 }
 .skill-con{
     display: flex;
-    /* gap: 150px; */
-    /* margin-left: 1200px; */
-    /* margin-top: 150px; */
     justify-content: center;
     align-items: center;
+    gap: 150px;
 
 }
 .section title{
@@ -99,8 +97,8 @@ nav ul li{
 }
 .im {
     border-radius: 10px;
-    box-shadow: 0 10px 8px #d8cfcf;
-    padding: 20px;
+    box-shadow:  #d8cfcf;
+    padding: 40px;
 
 }
 .tex{
@@ -110,12 +108,11 @@ nav ul li{
 }
 .foot{
     text-align: center;
-    /* margin-left: 500px; */
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 200px;
 }
 
 
