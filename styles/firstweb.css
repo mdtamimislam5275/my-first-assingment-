@@ -6,6 +6,7 @@ nav{
 }
 .color{ 
     color: #4E47FF;
+    font-size: xx-large;
 }
 nav ul li{
     list-style: none;
@@ -29,7 +30,8 @@ nav ul li{
     font-weight: bolder;
     text-align: center;
     font-size:xx-large;
-    margin-top: 200px;
+    /* margin-top: 200px; */
+    
 }
 .flex{
     display: flex;
@@ -62,16 +64,19 @@ nav ul li{
     font-size: larger;
     font-weight: 700;
     margin-top: 200px;
+    height: 400px;
 }
 .skill-con{
     display: flex;
-    gap: 150px;
-    margin-left: 1200px;
-    margin-top: 150px;
+    /* gap: 150px; */
+    /* margin-left: 1200px; */
+    /* margin-top: 150px; */
+    justify-content: center;
+    align-items: center;
 
 }
 .section title{
-    margin top:150px;
+    /* margin top:150px; */
     font-size: larger;
     
 }
@@ -95,7 +100,8 @@ nav ul li{
 .im {
     border-radius: 10px;
     box-shadow: 0 10px 8px #d8cfcf;
-    margin-bottom: 150px;
+    padding: 20px;
+
 }
 .tex{
     list-style: none;
@@ -104,7 +110,12 @@ nav ul li{
 }
 .foot{
     text-align: center;
-    margin-left: 500px;
+    /* margin-left: 500px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 }
 
 
