@@ -2,6 +2,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0 110px 0;
 }
 .color{ 
     color: #4E47FF;
@@ -9,27 +10,69 @@ nav{
 nav ul li{
     list-style: none;
 }
-.btn primaty {
+.btn-primary {
     background-color: #4E47FF;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: none;
+
 }
 .backround{
     background-image:url(../Hero-bg.png);
     width: 100%; height: 328px ;
+    
 }
 .bold{
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
 }
 .flex{
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+    margin: 150px 110px;
 }
 .section-color{
-    background-color: #9696aa;
+    background-color: #dadee2;
+    border-radius: 10px;
+    padding: 50px;
+    margin:0 110px 50px ;
+    text-align: center;
+}
+.fontl{
+    font-weight: bolder;
+    font-size: larger;
+    color: #4E47FF;
+    
 }
 .flex2{
     display: flex;
     text-align: center;
     border: auto;
+    justify-content: space-around;
 }
+.boxx{
+     ;
+}
+.skill-con{
+    display: flex;
+    gap: 120px;
+    margin-left: 400px;
+}
+.skills{
+    text-align: center;
+}
+.skill{
+    border-radius: 5px;
+    padding: 100px;
+    box-shadow: 0 6px 10px #d8cfcf;
+
+    
+}
+
+.sis{
+    display: flex;
+    
+}
+
