@@ -45,7 +45,7 @@ nav ul li{
 }
 .fontl{
     font-weight: bolder;
-    font-size: larger;
+    font-size:xx-large;
     color: #4E47FF;
     
 }
@@ -58,18 +58,27 @@ nav ul li{
  .ready{ 
     text-align: center;
     margin-left: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 180px;
     font-size: larger;
     font-weight: 700;
+    margin-top: 200px;
 }
 .skill-con{
     display: flex;
-    gap: 120px;
-    margin-left: 400px;
+    gap: 150px;
+    margin-left: 1200px;
     margin-top: 150px;
+
+}
+.section title{
+    margin top:150px;
+    font-size: larger;
+    
 }
 .skills{
     text-align: center;
+    margin-top:150px ;
+    
 }
 .skill{
     border-radius: 5px;
@@ -86,6 +95,7 @@ nav ul li{
 .im {
     border-radius: 10px;
     box-shadow: 0 10px 8px #d8cfcf;
+    margin-bottom: 150px;
 }
 .tex{
     list-style: none;
@@ -93,7 +103,7 @@ nav ul li{
     gap: 50px;
 }
 .foot{
-    
+    text-align: center;
     margin-left: 500px;
 }
 
