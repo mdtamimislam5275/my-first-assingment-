@@ -19,19 +19,22 @@ nav ul li{
     border: none;
 
 }
+
 .backround{
     background-image:url(../Hero-bg.png);
-    width: 100%; height: 328px ;
+    width: 100%; height: 700px ;
     
 }
 .bold{
     font-weight: bolder;
     text-align: center;
+    font-size:xx-large;
+    margin-top: 200px;
 }
 .flex{
     display: flex;
     justify-content: space-between;
-    margin: 150px 110px;
+    margin: 120px 200px;
 }
 .section-color{
     background-color: #dadee2;
@@ -52,13 +55,18 @@ nav ul li{
     border: auto;
     justify-content: space-around;
 }
-.boxx{
-     ;
+ .ready{ 
+    text-align: center;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    font-size: larger;
+    font-weight: 700;
 }
 .skill-con{
     display: flex;
     gap: 120px;
     margin-left: 400px;
+    margin-top: 150px;
 }
 .skills{
     text-align: center;
@@ -75,4 +83,20 @@ nav ul li{
     display: flex;
     
 }
+.im {
+    border-radius: 10px;
+    box-shadow: 0 10px 8px #d8cfcf;
+}
+.tex{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.foot{
+    
+    margin-left: 500px;
+}
+
+
+
 
